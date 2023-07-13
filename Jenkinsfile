@@ -2,6 +2,7 @@ pipeline {
   agent any
   tools {
     maven 'Maven-3.9.1'
+    SonarQube Scanner 'SONAR-4.8.0'
   }
   environment {
     // AWS_ACCESSOBJ = credentials('AWS_SECRET_KEY_ID')
